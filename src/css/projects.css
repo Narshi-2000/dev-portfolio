@@ -55,6 +55,7 @@
 
 #carouselExample .contents .right ul li img {
   height: 6vh;
+  margin:10px;
 }
 
 .thirdSection h1 {
@@ -108,6 +109,7 @@
   height: 7vh;
   border-radius: 10px;
   background: transparent;
+  margin:13px;
 }
 
 #skillheading {
@@ -166,15 +168,27 @@ ul.features {
 
 ul.features li {
   background-color: #22272b;
-  height: 36vh;
-  width: 23vh;
   padding: 10px;
   text-align: center;
   font-weight: 100;
   border-radius: 5px;
   margin-right:4px;
+  margin-bottom:7px;
 }
 
 ul.features li:hover {
   border: 1px solid grey;
+}
+
+@media only screen and (max-width: 1280px){
+  #carouselExample .contents img {
+    height: 33vh;
+    width:101%;
+  }
+}
+
+@media only screen and (max-width: 412px){
+  .accordion-body .tech img {
+    height:4vh;
+  }
 }
