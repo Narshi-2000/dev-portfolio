@@ -7,7 +7,6 @@
 #heading {
   font-size: 27px;
   text-shadow: 1px 1px 1px black;
-  margin-top:30px;
 }
 
 .secondSection #carouselExample {
@@ -191,5 +190,9 @@ ul.features li:hover {
 @media only screen and (max-width: 412px){
   .accordion-body .tech img {
     height:4vh;
+  }
+
+  #heading{
+    margin-top:58px;
   }
 }
